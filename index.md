@@ -5,13 +5,9 @@ title: Home
 
 # Guo Zikang
 
-<div class="card">
-
 上海交通大学本科生。研究兴趣：LLM、Multi-Agent。
 
 - GitHub: https://github.com/Guo-Zikang
 - Email: yourname@example.com
 
 👉 前往博客：[Blog](/blog/)
-
-</div>
