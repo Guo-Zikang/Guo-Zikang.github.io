@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Guo Zikang | Personal Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    :root {
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --bg: #ffffff;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 48px 24px;
+    }
+
+    header {
+      margin-bottom: 48px;
+    }
+
+    h1 {
+      font-size: 2.6rem;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
+
+    section {
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 6px;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .project {
+      margin-bottom: 20px;
+    }
+
+    .project-title {
+      font-weight: 600;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <header>
+      <h1>Guo Zikang</h1>
+      <div class="subtitle">
+        Undergraduate Student · Computer Science / Artificial Intelligence
+      </div>
+    </header>
+
+    <!-- About -->
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I am an undergraduate student interested in <strong>Artificial Intelligence</strong>,
+        <strong>Large Language Models</strong>, and <strong>Distributed Systems</strong>.
+        My goal is to pursue advanced research and contribute to reliable and scalable AI systems.
+      </p>
+    </section>
+
+    <!-- Research Interests -->
+    <section>
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Large Language Models (LLMs)</li>
+        <li>Multi-Agent Systems</li>
+        <li>Machine Learning Systems</li>
+        <li>Distributed Systems & Cloud Computing</li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Programming:</strong> Python, Java, C++</li>
+        <li><strong>ML Frameworks:</strong> PyTorch, HuggingFace Transformers</li>
+        <li><strong>Systems:</strong> Linux, Docker, Kubernetes</li>
+        <li><strong>Tools:</strong> Git, GitHub Actions</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <h2>Projects</h2>
+
+      <div class="project">
+        <div class="project-title">Gitlet (CS61B Project)</div>
+        <div class="project-desc">
+          A simplified version control system implemented in Java,
+          supporting commit, branch, merge, and version history using a DAG structure.
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-title">Kubernetes Microservice Deployment</div>
+        <div class="project-desc">
+          Deployed microservices on Kubernetes with automatic scaling (HPA),
+          service discovery, load balancing, and health-check-based self-healing.
+        </div>
+      </div>
+    </section>
+
+    <!-- CV -->
+    <section>
+      <h2>Curriculum Vitae</h2>
+      <p>
+        <a href="cv.pdf" target="_blank">Download CV (PDF)</a>
+      </p>
+    </section>
+
+    <!-- Contact -->
+    <section>
+      <h2>Contact</h2>
+      <ul>
+        <li>Email: yourname@example.com</li>
+        <li>GitHub: <a href="https://github.com/yourusername">https://github.com/yourusername</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      © 2026 Guo Zikang
+    </footer>
+
+  </div>
+</body>
+</html>
