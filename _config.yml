@@ -7,4 +7,6 @@ baseurl: ""
 url: "https://guo-zikang.github.io"
 
 # minima 主题会用到的一些信息（可选）
+title: "Guo Zikang"
+description: "Personal website & blog"
 author: "Guo Zikang"
